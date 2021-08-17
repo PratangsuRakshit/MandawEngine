@@ -15,7 +15,8 @@ class GameObject(pygame.Rect):
 
     def draw_ellipse(self):
         pygame.draw.ellipse(self.window, self.color, self)
-        
+
+# Just a Demo Run
 if __name__ == '__main__':
     from mandaw import *
 
